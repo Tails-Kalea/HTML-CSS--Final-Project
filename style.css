@@ -1118,6 +1118,9 @@ footer {
     width: auto;
     max-width: 384px;
   }
+   .section__title { 
+    text-align: center;
+   }
   .section__para {
     font-size: 14px;
   }
@@ -1193,5 +1196,11 @@ footer {
   }
   .footer__social--link:first-child {
     margin-left: 0px;
+  }
+}
+
+@media(max-width:576px) { 
+  .section__title { 
+    text-align: center;
   }
 }
